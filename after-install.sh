@@ -29,7 +29,7 @@ echo -e "Getting \e[33mscripts\e[0m..."
 sh get-scripts.sh
 echo
 echo "Cleaning up..."
-apt-get autoremove -y &amp;&amp; apt-get clean
+apt-get autoremove -y && apt-get clean
 #echo
 #echo -e "Getting \e[33mwordlists\e[0m..."
 #sh get-wordlists.sh &amp; # this takes forever
