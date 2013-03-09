@@ -20,9 +20,9 @@ sh get-tor.sh
 #echo
 #echo -e "Getting \e[36mDropbox\e[0m..."
 #sh get-dropbox.sh
-echo
-echo "Getting SRware Iron..."
-sh get-iron-browser.sh
+#echo
+#echo "Getting SRware Iron..."
+#sh get-iron-browser.sh
 cd $SCRIPTPATH
 echo
 echo -e "Getting \e[33mscripts\e[0m..."
@@ -35,6 +35,6 @@ apt-get autoremove -y && apt-get clean
 #sh get-wordlists.sh &amp; # this takes forever
 echo
 echo -e "Updating \e[31mBack|Track\e[0m..."
-python /pentest/bt5up/bt5up.py
+python Additional\ Scripts/Updates/bt5up.py
 echo
 echo -e "\e[32mDONE\e[0m"
